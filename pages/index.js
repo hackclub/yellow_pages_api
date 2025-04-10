@@ -17,6 +17,7 @@ export default function Home() {
         <h1>YellowPages API</h1>
         <ul>
           <li><strong><code>/data</code></strong>: All merchants</li>
+          <li><strong><code>/icons</code></strong>: All icons</li>
           <li><strong><code>/search?network_id=xxxx</code></strong>: Find a merchant by its network ID</li>
           <li><strong><code>/search?name=xxxx</code></strong>: Find a merchant by its name (returns multiple network IDs)</li>
           <li><strong><code>/icons/xxxx</code></strong>: Get the icon for a merchant (all lowercase, no special characters)</li>

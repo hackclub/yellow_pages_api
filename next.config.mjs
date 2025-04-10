@@ -12,6 +12,10 @@ const nextConfig = {
         destination: "/api/search",
       },
       {
+        source: "/icons",
+        destination: "/api/icons",
+      },
+      {
         source: "/icons/:path*",
         destination: "https://raw.githubusercontent.com/hackclub/yellow_pages/refs/heads/main/lib/assets/icons/:path*",
       },
